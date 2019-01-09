@@ -17,6 +17,7 @@ time.sleep(2)
 login = browser.find_elements_by_xpath('//*[@id="doc"]/div[1]/div/div[1]/div[2]/a[3]') 
   
 # using the click function which is similar to a click in mouse. 
+login
 login[0].click() 
   
 print("Loggin in Twitter") 
