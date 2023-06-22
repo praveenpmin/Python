@@ -1,0 +1,36 @@
+{
+    "example":[
+     {
+      "Stock Name": "INE078T01026",
+      "Price": 66.2,
+      "Day Low": "64.50",
+      "Day High": "67.45",
+      "Year Low": "15.60",
+      "Year High": "104.45"
+     },
+     {
+      "Stock Name": "RVNL",
+      "Price": 72.8,
+      "Day Low": "72.15",
+      "Day High": "73.90",
+      "Year Low": "29.00",
+      "Year High": "84.10"
+     },
+     {
+      "Stock Name": "HBLPOWER",
+      "Price": 108.8,
+      "Day Low": "107.65",
+      "Day High": "111.30",
+      "Year Low": "56.20",
+      "Year High": "121.75"
+     },
+     {
+      "Stock Name": "INE292B01021",
+      "Price": 108.8,
+      "Day Low": "107.65",
+      "Day High": "111.30",
+      "Year Low": "56.20",
+      "Year High": "121.75"
+     }
+    ]
+}

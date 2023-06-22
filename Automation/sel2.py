@@ -4,7 +4,7 @@ from selenium import webdriver
 # page is loaded. 
 import time 
 # webdriver path set 
-browser = webdriver.Chrome("C:/Users/ITPeople/code/Python/Automation/chromedriver") 
+browser = webdriver.Chrome("/Users/praveenbabu/Documents/python/Python/Automation/chromedriver") 
   
 # To maximize the browser window 
 browser.maximize_window() 
