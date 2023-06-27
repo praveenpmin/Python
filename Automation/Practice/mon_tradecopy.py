@@ -16,6 +16,7 @@ import datetime
 from datetime import datetime
 import os.path
 import mon
+from webdriver_manager.chrome import ChromeDriverManager
 
 G=1
 B=1
@@ -90,7 +91,8 @@ ws1=wb['Sheet1']
 ws2=wb1.active
 ws2=wb1[sheet_Name]
 # webdriver path set 
-browser = webdriver.Chrome("/Users/praveenbabu/Documents/python/Python/Automation/chromedriver") 
+#browser = webdriver.Chrome("/Users/praveenbabu/Documents/python/Python/Automation/chromedriver")
+browser = webdriver.Chrome(ChromeDriverManager().install())
 # To maximize the browser window 
 browser.maximize_window()
 browser.get('https://www.moneycontrol.com')
